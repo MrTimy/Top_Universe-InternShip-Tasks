@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    margin:auto;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.headerblog{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 60%;
+}
+.headerblog img{
+    width: 60%;
+    margin-top: 140px;
+    
+}
+.proverbs{
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    border-bottom: 3px solid black ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.proverbs h1{
+    font-size: 40px;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+.proverbs p{
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    word-spacing: 5px;
+}
+.articles{
+    /* margin-top: 130px; */
+    margin: auto;
+    width: 60vw;
+    display: grid;
+    padding: 50px;
+   
+
+}
+.articles-div{
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-areas: 
+    'A A A B B B'
+    'C C C D D D'
+    ;
+}
+.articles-div div{
+    margin-bottom: 30px;
+}
+.articles-div p{
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.heading{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 66px;
+}
+.blog1{
+    grid-area: A;
+}
+.blog2{
+    grid-area: B;
+}
+.blog3{
+    grid-area: C;
+}
+.blog4{
+    grid-area: D;
+}
