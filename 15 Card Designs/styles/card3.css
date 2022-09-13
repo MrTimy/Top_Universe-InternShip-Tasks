@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  background: #ababab;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 30px;
+  width: 40%;
+  height: 640px;
+  background-color: white;
+}
+#name {
+    font-weight: bold;
+  line-height: 63px;
+}
+#web {
+  font-weight: 400;
+  color: #78858f;
+}
+.footer {
+  width: 70vw;
+  display: flex;
+  padding: 34px;
+}
+
+.pic {
+  width: 90px;
+  height: 90px;
+  margin-left: 30px;
+  background: url(../assets/avatarWade.png) center center/cover no-repeat;
+  border-radius: 50px;
+}
+.pic2 {
+  width: 90px;
+  height: 90px;
+  margin-left: 30px;
+  background: url(../assets/avatar8.png) center center/cover no-repeat;
+  border-radius: 50px;
+}
+.name {
+  margin-left: 2em;
+}
+.burger_pic {
+  width: 30px;
+  height: 50px;
+  margin: 25px 0 0 6em;
+  background: url(../assets/3dotsicon.jpg) center center/cover no-repeat;
+}
+.body_image {
+  width: 100%;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  height: 450px;
+  background: url(../assets/unsplash.png) center center/cover no-repeat;
+}
+.body_image2 {
+  width: 100%;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  height: 450px;
+  background: url(../assets/unsplash_8.png) center center/cover no-repeat;
+}
+.footer {
+  margin: 10px;
+}
+
+/* Additional styling for card 8 */
+.card8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 30px;
+  width: 40%;
+  height: 770px;
+  background-color: white;
+}
+.body_text2 h1{
+  font-weight: 700;
+  font-size: 44px;
+}
+.body_text2{
+padding:40px 0px 0px 55px;
+width: 90%;
+background: #FFFFFF;
+border-radius: 20px;
+}
+
+.footer2 h3{
+  color: #78858F;
+  padding: 20px 0 0 58px;
+}
+.body_text3 h1{
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 38px;
+}
+.body_text3{
+padding:10px 0px 0px 58px;
+width: 90%;
+background: #FFFFFF;
+border-radius: 20px;
+}
+
+#body_image3 {
+  width: 100%;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  height: 320px;
+  background: url(../assets/unsplash_8.png) center center/cover no-repeat;
+}
+.pic3 {
+  width: 90px;
+  height: 90px;
+  margin-left: 8px;
+  background: url(../assets/avatar8.png) center center/cover no-repeat;
+  border-radius: 50px;
+}
+.footer8 {
+  width: 70vw;
+  display: flex;
+  padding: 80px 0 0 54px;
+}

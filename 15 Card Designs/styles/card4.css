@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  background: #ababab;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  border-radius: 30px;
+  width: 40%;
+  height: 740px;
+  background-color: white;
+}
+#name {
+  font-weight: bold;
+  line-height: 63px;
+}
+#web {
+  font-weight: 400;
+  color: #78858f;
+}
+.top_nav {
+  width: 70vw;
+  display: flex;
+  padding: 30px;
+}
+
+.pic {
+  width: 90px;
+  height: 90px;
+  margin-left: 30px;
+  background: url(../assets/avatar3.png) center center/cover no-repeat;
+  border-radius: 50px;
+}
+.name {
+
+  margin-left: 2em;
+}
+.body_image {
+  width: 100%;
+  height: 300px;
+  margin-top: 60px;
+  background: url(../assets/unsplash_3.png) center center/cover no-repeat;
+}
+.body_text h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 58px;
+}
+.body_text{
+padding: 20px 0 0 40px;
+width: 100%;
+height: 112px;
+background: #FFFFFF;
+border-radius: 20px;
+}
+.footer {
+  margin: 50px;
+}
+.footer h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 23px;
+  letter-spacing: 0.5px;
+  color: #78858f;
+}
