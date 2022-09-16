@@ -22,78 +22,82 @@ body {
   background-color: #fff;
 }
 .top_nav {
-    width: 70vw;
-    padding: 40px 0 0 40px;
-  }
-  .top_nav img{
-    width: 21px;
-    
-  }
-  .body_image{
-    width: 58%;
-    height: 37%;
-    margin: 79px 0 0 88px;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.51), rgba(255, 255, 255, 0.51)), linear-gradient(90deg, #FFEEEE 0%, #DDEFBB 100%);
-border-radius: 200px;
-  }
-  .burger_pic {
-    width: 44px;
-    height: 28px;
-    margin: -35px 0 0 20em;
-    background: url(../assets/Vector11.png) center center/cover no-repeat;
-  }
-  .body_image img{
-    width: 93px;
-    margin: -72px 0px 0px 82px
-  }
-  .body_text{
-    padding: 30px;
-  }
-  .body_text h1{
-    font-size: 40px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-  }
-  .body_text p{
-    font-size: 20px;
-    line-height: 33px;
-  }
-  .footer{
-    width: 100%;
-    display: flex;
-    padding: 30px 0 0 45px; 
-  }
-  .footer h2{
-    font-size: 30px;
-  }
-  .button{
-    float: right;
-    width: 173px;
-    padding: 2px;
-    background-color: #f7f7f7;
-    border-radius: 50px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 6em;
-    margin-bottom: 62px;
-    height: 60px;
-  }
-  .button h3{
-    display: flex;
-    place-items: center;
-    font-size: 30px;
-  }
-  .add{
-    width: 55px;
-    height: 55px;
-    float: right;
-    margin-bottom: 40px;
-    margin-right: 2px;
-    border-radius: 50px;
-    background-color: #fff;
-  }
-  .add h2{
-    display: flex;
-    justify-content: center;
-    margin-top:10px;
-  }
+  width: 70vw;
+  padding: 40px 0 0 40px;
+}
+.top_nav img {
+  width: 21px;
+}
+.body_image {
+  width: 58%;
+  height: 37%;
+  margin: 79px 0 0 88px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.51),
+      rgba(255, 255, 255, 0.51)
+    ),
+    linear-gradient(90deg, #ffeeee 0%, #ddefbb 100%);
+  border-radius: 200px;
+}
+.burger_pic {
+  width: 44px;
+  height: 28px;
+  margin: -35px 0 0 20em;
+  background: url(../assets/Vector11.png) center center/cover no-repeat;
+}
+.body_image img {
+  width: 93px;
+  margin: -72px 0px 0px 82px;
+}
+.body_text {
+  padding: 30px;
+}
+.body_text h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.body_text p {
+  font-size: 20px;
+  line-height: 33px;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  padding: 30px 0 0 45px;
+}
+.footer h2 {
+  font-size: 30px;
+}
+.button {
+  float: right;
+  width: 173px;
+  padding: 2px;
+  background-color: #f7f7f7;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6em;
+  margin-bottom: 62px;
+  height: 60px;
+}
+.button h3 {
+  display: flex;
+  place-items: center;
+  font-size: 30px;
+}
+.add {
+  width: 55px;
+  height: 55px;
+  float: right;
+  margin-bottom: 40px;
+  margin-right: 2px;
+  border-radius: 50px;
+  background-color: #fff;
+}
+.add h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
